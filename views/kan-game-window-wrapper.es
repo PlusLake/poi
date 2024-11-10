@@ -190,7 +190,7 @@ export class KanGameWindowWrapper extends PureComponent {
       )
       this.currentWindow.setResizable(!windowUseFixedResolution)
       this.resizable = !windowUseFixedResolution
-      this.currentWindow.setAspectRatio(1200 / 720, {
+      this.currentWindow.setAspectRatio(1200 / 770, {
         width: 0,
         height: Math.round(this.getYOffset() * config.get('poi.appearance.zoom', 1)),
       })

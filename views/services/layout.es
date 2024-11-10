@@ -96,7 +96,7 @@ const setOverlayPanelWindowSize = (overlayPanel) => {
     }
     bounds.width = getRealSize(webviewWidth)
     bounds.height = getRealSize(webviewHeight + getYOffset())
-    remote.getCurrentWindow().setAspectRatio(1200 / 720, {
+    remote.getCurrentWindow().setAspectRatio(1200 / 770, {
       width: 0,
       height: getRealSize(getYOffset()),
     })
